@@ -17,3 +17,15 @@ and also i learn how we can make any shape of pcb in kicad .
 The shape i have selected for my pcb keychain .
 
 **Total time spent: 1h**
+
+
+# November 2nd: completed the schematics  
+
+today I have selected all the components in schematics editor , 
+
+and connected all the wires and also run the ERC for any error but it was all correct no error are their .
+
+![pcb reference ](/img/schematic.png)
+
+
+**Total time spent: 1.2h**
