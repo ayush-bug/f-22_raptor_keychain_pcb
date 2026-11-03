@@ -570,7 +570,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Optical:LDR03"
+		(symbol "Device:R_Photo"
 			(pin_numbers
 				(hide yes)
 			)
@@ -583,28 +583,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at -5.08 0 90)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "LDR03"
-				(at 1.905 0 90)
+			(property "Value" "R_Photo"
+				(at 1.27 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify top)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
-				(at 4.445 0 90)
+			(property "Footprint" ""
+				(at 1.27 -6.35 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -612,9 +613,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf"
+			(property "Datasheet" ""
 				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -625,7 +627,7 @@
 					)
 				)
 			)
-			(property "Description" "light dependent resistor"
+			(property "Description" "Photoresistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -636,7 +638,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "light dependent photo resistor LDR"
+			(property "ki_keywords" "resistor variable light sensitive opto LDR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -647,7 +649,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R*LDR*10x8.5mm*P7.6mm*"
+			(property "ki_fp_filters" "*LDR* R?LDR*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -658,7 +660,7 @@
 					)
 				)
 			)
-			(symbol "LDR03_0_1"
+			(symbol "R_Photo_0_1"
 				(polyline
 					(pts
 						(xy -1.524 -0.762) (xy -4.064 1.778)
@@ -743,7 +745,7 @@
 					)
 				)
 			)
-			(symbol "LDR03_1_1"
+			(symbol "R_Photo_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1027,551 +1029,219 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "220ohm"
+	(text "100k"
 		(exclude_from_sim no)
-		(at 132.334 110.744 0)
+		(at 194.564 87.884 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 0.762 0.762)
 			)
 		)
-		(uuid "64dbffc6-3690-45e0-859d-a2b50f76a693")
+		(uuid "7b858f9d-6558-4af2-968c-17c80b7a358e")
 	)
-	(text "100k "
+	(text "220"
 		(exclude_from_sim no)
-		(at 133.35 94.234 0)
+		(at 170.18 127.254 0)
 		(effects
 			(font
+				(face "KiCad Font")
 				(size 0.762 0.762)
 			)
 		)
-		(uuid "cf9003f2-15d2-4d3b-9559-ad4be79285d4")
+		(uuid "e3740cf3-2218-4ef7-86b5-edb4e3d08f21")
 	)
 	(junction
-		(at 147.32 104.14)
+		(at 151.13 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "375be01c-ddf2-4dd1-b600-a2633bce6cfd")
+		(uuid "1ac372db-5fdd-4c1a-8f12-d9a38c8af384")
 	)
 	(junction
-		(at 116.84 93.98)
+		(at 213.36 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54edc029-92d3-45ab-9289-04f5d42703b1")
+		(uuid "3be75f28-0430-47da-aa89-d55d4099fb4d")
 	)
 	(junction
-		(at 105.41 110.49)
+		(at 132.08 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58684212-1e91-48d4-8da7-6d655a8f3bd4")
+		(uuid "9ddd5f31-f929-4db2-8aed-1c89d2fdd4ec")
 	)
 	(wire
 		(pts
-			(xy 173.99 104.14) (xy 173.99 86.36)
+			(xy 173.99 127) (xy 199.39 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2853a198-bd1a-4616-be90-1c1041f9d092")
+		(uuid "13c49ea4-8a00-4207-8afc-56e3ff419387")
 	)
 	(wire
 		(pts
-			(xy 173.99 86.36) (xy 99.06 86.36)
+			(xy 213.36 106.68) (xy 213.36 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f2cb45b-4292-46ec-8981-beff6d452b83")
+		(uuid "3bd7c73d-066f-44e2-80c1-6dc901a3ccab")
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 147.32 110.49)
+			(xy 132.08 127) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42334e18-26d3-4020-a13d-3aacf6a32af4")
+		(uuid "42e03d10-60c2-4a7c-af57-65e9a5bc9e67")
 	)
 	(wire
 		(pts
-			(xy 105.41 93.98) (xy 105.41 96.52)
+			(xy 151.13 87.63) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "474016fd-ffc2-4af4-9597-54e63c0669cc")
+		(uuid "5b94b457-38dc-4959-9dc9-16d2ef979f92")
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 173.99 104.14)
+			(xy 123.19 77.47) (xy 123.19 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59205188-fccf-4e65-a11b-7df2bf5cab6a")
+		(uuid "5df3c364-58c0-443b-bc93-77d7d00a88cb")
 	)
 	(wire
 		(pts
-			(xy 99.06 110.49) (xy 105.41 110.49)
+			(xy 207.01 127) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae688fe-3814-499f-95b4-cc342c5dc2e2")
+		(uuid "75e51d06-b5d3-4af8-b504-e2c662ae43c3")
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 147.32 104.14)
+			(xy 151.13 87.63) (xy 190.5 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60e3fb38-0384-4e2a-a65b-089d356d4a4a")
+		(uuid "7b303aeb-de13-405c-b941-9d68207b9b02")
 	)
 	(wire
 		(pts
-			(xy 135.89 110.49) (xy 139.7 110.49)
+			(xy 151.13 119.38) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6abb758a-a651-466c-864e-553547c98471")
+		(uuid "8140f64e-372d-4d22-85dc-659d78da3031")
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 116.84 102.87)
+			(xy 213.36 127) (xy 213.36 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7937dd34-4242-4af6-a15a-6a0bd6b3c105")
+		(uuid "877f7ee6-76df-45a7-b342-a6e491163a79")
 	)
 	(wire
 		(pts
-			(xy 99.06 86.36) (xy 99.06 110.49)
+			(xy 156.21 127) (xy 166.37 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bf903ef-f286-4ddc-9c24-0d5c54eaa7ca")
+		(uuid "8e49525f-7717-4ec1-b43b-04f7bd5aa1f3")
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 105.41 110.49)
+			(xy 213.36 106.68) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93f01953-fdeb-4c21-957d-81b39127d3c3")
+		(uuid "9c69b416-8aef-4800-a914-9b8ecf14943f")
 	)
 	(wire
 		(pts
-			(xy 105.41 93.98) (xy 116.84 93.98)
+			(xy 213.36 87.63) (xy 198.12 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0a356e7-9a77-494c-a4ee-0899a289a19a")
+		(uuid "aec4e429-1142-4f4e-81d3-cd04c59aee64")
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 147.32 104.14)
+			(xy 227.33 106.68) (xy 227.33 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a37deec3-aa9e-42e0-a5c7-2089a4c0c2ad")
+		(uuid "bac9b656-a32d-4475-bee6-49cfc8658949")
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 137.16 93.98)
+			(xy 123.19 127) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc97f8a2-5bd7-4da3-9661-bbb8de74a1a5")
+		(uuid "d58d241f-ee08-4123-b21b-8e14f49e6fea")
 	)
 	(wire
 		(pts
-			(xy 105.41 110.49) (xy 111.76 110.49)
+			(xy 227.33 77.47) (xy 123.19 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de4a1e42-b310-4c5a-934b-4d730a9e5fda")
+		(uuid "e4b70d68-f39f-4be3-a189-85b15db5c1fa")
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 128.27 110.49)
+			(xy 132.08 87.63) (xy 132.08 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eefa31a3-9ea4-4ee9-9f39-bcdc26ac1f22")
+		(uuid "e64830bb-129d-40b0-aa54-b1dbbff27080")
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 116.84 93.98)
+			(xy 132.08 102.87) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7a8600e-7f57-470e-b0db-14eef439bd7f")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bf5e67b-a8d5-49c8-84e4-150601da5b0c")
-		(property "Reference" "R3"
-			(at 132.08 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 132.08 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
-			(at 132.08 112.268 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5813e472-2395-4ca9-bcac-ae18a3d5090f")
-		)
-		(pin "1"
-			(uuid "bcdc9237-43e5-48f3-a01c-414a6e1b0356")
-		)
-		(instances
-			(project "f-22_faptor"
-				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Optical:LDR03")
-		(at 105.41 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19758f7c-e2b1-4426-ab42-4325e4e924ab")
-		(property "Reference" "R1"
-			(at 107.95 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LDR03"
-			(at 107.95 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
-			(at 109.855 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf"
-			(at 105.41 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "light dependent resistor"
-			(at 105.41 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b5120da1-d537-466e-a29d-44767a3cffb0")
-		)
-		(pin "1"
-			(uuid "0cc4b133-a9b0-4301-9a3c-ee775a517472")
-		)
-		(instances
-			(project "f-22_faptor"
-				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 143.51 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36c83b7a-fd45-4666-a573-2ab0e91aad8f")
-		(property "Reference" "D1"
-			(at 141.9225 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 141.9225 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
-			(at 143.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 143.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a5b333c8-313e-4c27-89e2-07413fd0d359")
-		)
-		(pin "1"
-			(uuid "17b8bbdf-2d7a-40df-8371-8ed2f8768bde")
-		)
-		(instances
-			(project "f-22_faptor"
-				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b67fc4f-fe6c-4cfc-915f-d66a10ea6d3d")
-		(property "Reference" "R2"
-			(at 133.35 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 133.35 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
-			(at 133.35 95.758 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7658eeef-240d-4058-889c-44c9ecdc8ce5")
-		)
-		(pin "2"
-			(uuid "c3e932b8-7c5f-4992-8d8f-5360bc9171d8")
-		)
-		(instances
-			(project "f-22_faptor"
-				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f9a508bd-b999-4f64-8494-70160f2eb4d7")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC547")
-		(at 116.84 107.95 270)
+		(at 151.13 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1580,9 +1250,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e5bb41a-96d8-4ee6-86b7-17321aafafe6")
+		(uuid "3688e801-eba7-4447-bc36-7872997bbc74")
 		(property "Reference" "Q1"
-			(at 116.84 114.3 90)
+			(at 151.13 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1592,7 +1262,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 116.84 116.84 90)
+			(at 151.13 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1601,8 +1271,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 114.935 113.03 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+			(at 149.225 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,7 +1285,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 116.84 107.95 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1627,7 +1297,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 116.84 107.95 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1638,7 +1308,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 116.84 107.95 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1649,7 +1319,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 116.84 107.95 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1659,14 +1329,14 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "91d2fac7-42ae-4913-9ba9-b76d6e8bf7f9")
+		(pin "1"
+			(uuid "9f1cb0fd-ce64-4d24-809c-ec5a04c8f465")
 		)
 		(pin "3"
-			(uuid "724c5f6b-f0e5-4db3-b5bb-06ca5764d62e")
+			(uuid "52b298ed-e8e1-4399-8656-d6cbaa8dccb8")
 		)
-		(pin "1"
-			(uuid "32264fa7-39f8-46bb-a835-ebefb608404e")
+		(pin "2"
+			(uuid "e4e00c09-9b7e-4c12-8031-36d8b618ece4")
 		)
 		(instances
 			(project "f-22_faptor"
@@ -1678,8 +1348,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 162.56 104.14 90)
+		(lib_id "Device:LED")
+		(at 203.2 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1688,9 +1358,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "add776c8-9a1f-4154-bc49-75942783d27b")
-		(property "Reference" "BT1"
-			(at 160.7185 96.52 90)
+		(uuid "64e7559d-2aba-4804-8d6b-cec0c832056d")
+		(property "Reference" "D1"
+			(at 201.6125 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1699,8 +1369,8 @@
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 160.7185 99.06 90)
+		(property "Value" "LED"
+			(at 201.6125 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1709,8 +1379,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 161.036 104.14 90)
+		(property "Footprint" "LED_D3.0mm"
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +1391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.036 104.14 90)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,8 +1401,8 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 162.56 104.14 0)
+		(property "Description" "Light emitting diode"
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,30 +1412,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
-			(at 162.56 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 162.56 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 162.56 104.14 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1776,10 +1424,366 @@
 			)
 		)
 		(pin "2"
-			(uuid "cb36c226-d40a-4c6b-b326-e61a13cd79cd")
+			(uuid "3db47f72-3d34-43e7-95ce-a17882ca7a61")
 		)
 		(pin "1"
-			(uuid "96a451d5-2aa9-4263-837d-d7909078f144")
+			(uuid "6e78db6a-9cbb-426f-a7b5-225b37567dd9")
+		)
+		(instances
+			(project "f-22_faptor"
+				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Photo")
+		(at 132.08 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92ce3bff-515c-40a6-a715-3f43c6fab1ce")
+		(property "Reference" "R1"
+			(at 134.62 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Photo"
+			(at 134.62 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+			(at 133.35 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Photoresistor"
+			(at 132.08 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "075f5229-4c4c-4b10-86c6-99747563d174")
+		)
+		(pin "1"
+			(uuid "0c050db3-397f-4a4a-9ef3-ff73e97116b5")
+		)
+		(instances
+			(project "f-22_faptor"
+				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de6bca2-e9b4-43a1-9ab0-af3e4463c7e7")
+		(property "Reference" "R2"
+			(at 194.31 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 194.31 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 194.31 89.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0b27c2a7-7515-4df3-968b-e44638790406")
+		)
+		(pin "1"
+			(uuid "bb2aa212-7438-4789-ac47-4dd8a0ff21d4")
+		)
+		(instances
+			(project "f-22_faptor"
+				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40396fd-64be-405d-9f1d-0477bb017556")
+		(property "Reference" "R3"
+			(at 170.18 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 170.18 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 170.18 128.778 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "701d5702-b489-4a36-ada4-45d55fe42ab8")
+		)
+		(pin "1"
+			(uuid "cd284223-5b48-4c85-86fc-db739d6b75e5")
+		)
+		(instances
+			(project "f-22_faptor"
+				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 224.79 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8061244-9ca9-4942-a59c-5af111e2ba3f")
+		(property "Reference" "BT1"
+			(at 222.9485 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 222.9485 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
+			(at 223.266 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.266 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 224.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 224.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 224.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 224.79 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4a7f087-281e-4445-b7f4-f598297e2c48")
+		)
+		(pin "1"
+			(uuid "98f9e9e8-111e-4706-9292-6991f91f2fd3")
 		)
 		(instances
 			(project "f-22_faptor"

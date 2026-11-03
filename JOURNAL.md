@@ -29,3 +29,19 @@ and connected all the wires and also run the ERC for any error but it was all co
 
 
 **Total time spent: 1.2h**
+
+# November 4th: completed the pcb design  
+
+today I have completed almost all the pcb part only thing left is a hole for key ring and some good styles on pcb ,
+
+I have used inkscape to make the shape of the f-22 raptor using stroke ,
+
+for help i used this yt tutorial `https://youtu.be/rhqlP8CRct0?si=SE47k9Mj8VMQZD9N`
+
+and also the drc is ok no violation found . 
+
+
+![pcb reference ](/img/pcb.png)
+
+
+**Total time spent: ~2h**
