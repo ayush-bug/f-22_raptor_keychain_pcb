@@ -785,6 +785,319 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC547"
 			(pin_names
 				(offset 0)
@@ -1069,6 +1382,14 @@
 		(color 0 0 0 0)
 		(uuid "9ddd5f31-f929-4db2-8aed-1c89d2fdd4ec")
 	)
+	(no_connect
+		(at 229.87 106.68)
+		(uuid "3246c0d2-b9e8-4822-ba93-a929fefc54cb")
+	)
+	(no_connect
+		(at 129.54 139.7)
+		(uuid "a835b9c2-df8c-4ded-931c-eb51551c36fd")
+	)
 	(wire
 		(pts
 			(xy 173.99 127) (xy 199.39 127)
@@ -1078,6 +1399,16 @@
 			(type default)
 		)
 		(uuid "13c49ea4-8a00-4207-8afc-56e3ff419387")
+	)
+	(wire
+		(pts
+			(xy 236.22 106.68) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce1f196-2301-419b-93a4-a12cfe57112c")
 	)
 	(wire
 		(pts
@@ -1171,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 219.71 106.68)
+			(xy 213.36 106.68) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1191,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 106.68) (xy 227.33 77.47)
+			(xy 248.92 106.68) (xy 248.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 77.47) (xy 123.19 77.47)
+			(xy 248.92 77.47) (xy 123.19 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1228,6 +1559,26 @@
 			(type default)
 		)
 		(uuid "e64830bb-129d-40b0-aa54-b1dbbff27080")
+	)
+	(wire
+		(pts
+			(xy 236.22 96.52) (xy 236.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec87a80f-1697-4e67-a5a1-a184379d0a1a")
+	)
+	(wire
+		(pts
+			(xy 227.33 96.52) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5319e54-1823-444f-98d6-1d4d2cf0de72")
 	)
 	(wire
 		(pts
@@ -1342,6 +1693,85 @@
 			(project "f-22_faptor"
 				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ecd7391-233b-4e12-9acc-8ef6ae81786f")
+		(property "Reference" "H1"
+			(at 132.08 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "keyring"
+			(at 132.08 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c74a0ca-5159-47d7-b62c-e90886a3c94c")
+		)
+		(instances
+			(project "f-22_faptor"
+				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -1683,7 +2113,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 224.79 106.68 90)
+		(at 246.38 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1694,7 +2124,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8061244-9ca9-4942-a59c-5af111e2ba3f")
 		(property "Reference" "BT1"
-			(at 222.9485 99.06 90)
+			(at 244.5385 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1704,7 +2134,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 222.9485 101.6 90)
+			(at 244.5385 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1714,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
-			(at 223.266 106.68 90)
+			(at 244.856 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1725,7 +2155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.266 106.68 90)
+			(at 244.856 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1736,7 +2166,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 224.79 106.68 0)
+			(at 246.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1747,7 +2177,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 224.79 106.68 0)
+			(at 246.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,7 +2188,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 224.79 106.68 0)
+			(at 246.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +2199,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 224.79 106.68 0)
+			(at 246.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1789,6 +2219,91 @@
 			(project "f-22_faptor"
 				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 227.33 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e78165b9-6f92-49c1-9083-a430a64d315d")
+		(property "Reference" "SW1"
+			(at 232.41 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 232.41 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 227.33 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 227.33 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "679a3ced-cfb2-4416-85e3-f5009cd94d34")
+		)
+		(pin "3"
+			(uuid "72ad7e74-7bd8-4db3-b9b7-1db30231c611")
+		)
+		(pin "1"
+			(uuid "5c7f6041-dcbf-48d6-8a21-020b124309f8")
+		)
+		(instances
+			(project "f-22_faptor"
+				(path "/5a22683a-3795-44d3-bd03-73a19f5a222c"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

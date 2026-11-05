@@ -45,3 +45,29 @@ and also the drc is ok no violation found .
 
 
 **Total time spent: ~2h**
+
+
+# November 5th: Almost every thing is done  
+
+today I have added a small spdt switch so that you can save the battery if in case it is in pocket or you want to save the battery .
+
+I have a good graphic of f-22 raptor design . 
+and also added a hole to add the keyring
+
+i take the graphic from here : `https://upload.wikimedia.org/wikipedia/commons/6/6a/Lockheed_Martin_F-22A_Raptor_3-view.png`,
+
+
+and also the drc is ok no violation found . 
+
+I think almost everything is done .
+
+front view
+
+![pcb reference ](/img/final2.png)
+
+back view 
+
+![back view](/img/final.png)
+
+
+**Total time spent: ~1.5h**
